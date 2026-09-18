@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" role="img" aria-label="秋季发布会背景：暮色秋山与落日">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2c2140"/>
+      <stop offset="0.42" stop-color="#7a3b46"/>
+      <stop offset="0.72" stop-color="#d5693a"/>
+      <stop offset="1" stop-color="#f2a44a"/>
+    </linearGradient>
+    <radialGradient id="sunGlow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ffe9b8" stop-opacity="0.95"/>
+      <stop offset="0.35" stop-color="#ffc46b" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#ffc46b" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="sun" cx="0.5" cy="0.42" r="0.65">
+      <stop offset="0" stop-color="#fff3d6"/>
+      <stop offset="0.8" stop-color="#ffd98a"/>
+      <stop offset="1" stop-color="#f7b15c"/>
+    </radialGradient>
+    <linearGradient id="hillFar" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8a4a3e"/>
+      <stop offset="1" stop-color="#6d3530"/>
+    </linearGradient>
+    <linearGradient id="hillMid" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5c2d2c"/>
+      <stop offset="1" stop-color="#4a2326"/>
+    </linearGradient>
+    <linearGradient id="hillNear" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3a1d24"/>
+      <stop offset="1" stop-color="#27131a"/>
+    </linearGradient>
+  </defs>
+
+  <!-- 天空 -->
+  <rect width="1600" height="1000" fill="url(#sky)"/>
+
+  <!-- 落日（画面的视觉焦点，约位于 50%,42%） -->
+  <circle cx="800" cy="470" r="330" fill="url(#sunGlow)"/>
+  <circle cx="800" cy="470" r="128" fill="url(#sun)"/>
+  <ellipse cx="800" cy="512" rx="150" ry="10" fill="#f0a05a" opacity="0.35"/>
+
+  <!-- 远山 -->
+  <path d="M0 620 L180 520 L340 590 L520 500 L720 600 L900 520 L1100 600 L1280 540 L1460 610 L1600 560 L1600 1000 L0 1000 Z" fill="url(#hillFar)"/>
+  <!-- 中山 -->
+  <path d="M0 720 L220 620 L420 700 L640 610 L860 710 L1080 630 L1300 720 L1500 650 L1600 690 L1600 1000 L0 1000 Z" fill="url(#hillMid)"/>
+  <!-- 近山 -->
+  <path d="M0 860 L260 760 L520 850 L780 770 L1060 870 L1320 790 L1600 870 L1600 1000 L0 1000 Z" fill="url(#hillNear)"/>
+
+  <!-- 秋叶点缀 -->
+  <g opacity="0.9">
+    <path d="M120 180 q26 -34 58 -18 q-12 30 -44 34 q-20 2 -14 -16z" fill="#e08a3c"/>
+    <path d="M1420 130 q30 -28 58 -8 q-6 32 -40 30 q-24 -2 -18 -22z" fill="#d9703a"/>
+    <path d="M1330 250 q22 -22 44 -6 q-6 24 -32 22 q-18 -2 -12 -16z" fill="#b84d32" opacity="0.85"/>
+    <path d="M210 320 q20 -24 44 -10 q-8 24 -32 24 q-18 0 -12 -14z" fill="#c9572b" opacity="0.8"/>
+  </g>
+
+  <!-- 前景暗角，让文字更稳 -->
+  <rect width="1600" height="1000" fill="#1a0e16" opacity="0.12"/>
+</svg>
