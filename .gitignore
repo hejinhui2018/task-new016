@@ -1,0 +1,12 @@
+node_modules
+dist
+.npm-cache
+.pw-browsers
+.pw-deps
+tmp-e2e
+tmp-shots
+*.local
+.DS_Store
+coverage
+tsconfig.tsbuildinfo
+*.tsbuildinfo

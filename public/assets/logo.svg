@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="64" viewBox="0 0 240 64">
+  <!-- 品牌标识：枫叶标记 + AURORA 字标 -->
+  <g>
+    <rect x="2" y="14" width="36" height="36" rx="10" fill="#ffb347"/>
+    <path d="M20 22 l5 8 9 -3 -3 9 8 5 -9 2 3 9 -8 -5 -8 5 3 -9 -9 -2 8 -5 -3 -9 9 3 z" fill="#3a1d0c"/>
+  </g>
+  <text x="50" y="34" font-family="Helvetica, Arial, sans-serif" font-size="20" font-weight="800" letter-spacing="3" fill="#ffffff">AURORA</text>
+  <text x="50" y="52" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="13" font-weight="600" letter-spacing="2" fill="rgba(255,255,255,0.82)">极光科技</text>
+</svg>
